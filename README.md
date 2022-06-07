@@ -1,15 +1,27 @@
-# Recepies-Revised
-Odin recepies revised
+# odin_recepies
+This project will help me:
+    practice my html, css and flexbox knowledge
 
-### Project requirements
+We will iterate the assignment severally
 
-- Create a new empty repo.
-- Copy your code from the project that you completed during the Admissions Trial.
-- Create a new branch for your copied code.
-- Open a pull request. 
-- Play the role of the Code Reviewer:
-    - Follow the list from the article ["How to give a code review?"](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/code-review/articles/give_code_review_basics.md).
-    - Check that you have used [semantic HTML tags](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md#:~:text=Use%20the%20appropriate%20tags%20for%20each%20element%20(e.g.%2C%20links%2C%20titles%2C%20etc.)%20and%20use%20HTML5%20semantic%20tags%20(e.g.%2C%20header%2C%20nav)%20over%20divs.).
-    - Check that you applied [HTML & CSS best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md).
-- Add as many comments as possible in the given time and finish your review. Remember to add a minimum of 2 comments.
-- Copy a link to the pull request and ask for a code review in your Student Dashboard as usual. (The only difference will be that the Code Reviewer won't check your code but the review you performed - isn't it a code review inception? ;))
+Iteration 1: Initial structure
+    Within the odin-recipes directory, create an index.html file.
+    Fill it out with the usual boilerplate HTML and add an h1 heading “Odin Recipes” to the body.
+
+Iteration 2: Recipe Page
+    Create a new directory within the odin-recipes directory and name it recipes.
+    Create a new HTML file within the recipes directory and name it after the recipe it will contain. For example lasagna.html. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use here.
+    For now, just include an h1 heading with the recipe’s name as its content.
+    Back in the index.html file, add a link to the recipe page you just created. The text of the link should again be the recipe name.  
+
+Iteration 3: Recipe Page Content
+    The recipe page should have the following content:
+
+    An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on google or the site recipe site we linked to earlier.
+    Under the image, it should have an appropriately sized “Description” heading followed by a paragraph or two describing the recipe.
+    Under the description, add an “Ingredients” heading followed by an unordered list of the ingredients needed for the recipe.
+    Finally, under the ingredients list, add a “Steps” heading followed by an ordered list of the steps needed for making the dish.
+
+Iteration 4: Add More Recipes
+    Add two more recipes with identical page structures to the recipe page you’ve already created.
+    Don’t forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren’t all on one line.
